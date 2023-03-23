@@ -81,3 +81,15 @@
     color: #ffffff;
     padding: 1rem;
 }
+/*to position my grid items*/
+.parent2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+form{
+    
+    color: #ffffff;
+    padding: 1rem;
+}

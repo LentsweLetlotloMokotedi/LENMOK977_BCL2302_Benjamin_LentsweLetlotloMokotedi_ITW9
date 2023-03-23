@@ -1,0 +1,10 @@
+/*for stylinng of my animation*/
+@keyframes divcolor{
+    0%{
+        transform: rotateX(120deg);}
+    50%{
+    border-radius: 100%;}
+    100%{
+         transform: translateX();
+         }
+}

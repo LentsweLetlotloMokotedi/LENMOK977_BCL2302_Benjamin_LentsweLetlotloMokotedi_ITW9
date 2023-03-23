@@ -8,3 +8,14 @@
          transform: translateX();
          }
 }
+/* for responsiveness of my word menu*/
+.menua{
+    background-color: #57a4b9;
+    border-radius: 10%;
+    animation-name: divcolor;
+    animation-duration: 10s;
+    width: 70px;
+    height: fit-content;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}

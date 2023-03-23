@@ -19,3 +19,13 @@
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/*for my flexbox*/
+.container{
+    display: flex;
+    flex-direction: column;
+    border-style: double;
+    border-color: rgb(72, 5, 5);
+    animation-name: divcolor;
+    animation-duration: 5s;
+}

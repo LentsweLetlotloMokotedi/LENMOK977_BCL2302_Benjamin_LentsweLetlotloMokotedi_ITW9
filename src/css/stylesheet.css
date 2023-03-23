@@ -29,3 +29,55 @@
     animation-name: divcolor;
     animation-duration: 5s;
 }
+/*for my CSS Grid*/
+.grid-wrapper {
+    display: grid;
+    
+    grid-gap: 2vw;
+}
+.grid-item1{
+    
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.grid-item2{
+    
+    color: #ffffff;
+    padding: 1rem;
+    
+}
+/*to position my content*/
+.parent1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.grid-item3{
+    
+    color: #ffffff;
+    padding: 1rem;
+    width: auto;
+}
+
+.grid-item4{
+    
+    color: #ffffff;
+    padding: 1rem;
+    width: fit-content;
+}
+
+.grid-item5{
+    
+    color: #ffffff;
+    padding: 1rem;
+    
+    
+}
+
+
+.grid-item6{
+    
+    color: #ffffff;
+    padding: 1rem;
+}

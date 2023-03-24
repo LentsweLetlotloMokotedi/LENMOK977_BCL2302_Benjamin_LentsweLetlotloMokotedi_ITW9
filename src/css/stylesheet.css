@@ -18,17 +18,40 @@
     height: fit-content;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
+    border: 5px solid royalblue;
 }
+
+img{
+    border: 5px solid rgb(67, 10, 10);
+    margin-top: 10px;
+    
+   } 
+
+
+
+button{
+    margin-top: 50px;
+    width: 80PX;
+    height: 80PX;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    animation-name: divcolor;
+    animation-duration: 10s;
+    font-size: large;
+    border-radius: 360px;
+    border: 5px solid rgb(62, 4, 4) ;
+    border-style: double;
+}
+
 
 /*for my flexbox*/
 .container{
+    border: double maroon;
+    border-style: double;
     display: flex;
     flex-direction: column;
-    border-style: double;
-    border-color: rgb(72, 5, 5);
     animation-name: divcolor;
     animation-duration: 5s;
-    background-color: brown;
 }
 /*for my CSS Grid*/
 .grid-wrapper {
@@ -38,66 +61,85 @@
 }
 .grid-item1{
     
-    color: #ffffff;
+    color: #000000;
     padding: 1rem;
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    border:5px solid rgb(116, 7, 7);
 }
 
 .grid-item2{
-    
-    color: #ffffff;
+    background-color: white;
+    color: #000000;
     padding: 1rem;
+    width: fit-content;
+    border:5px solid rgb(116, 7, 7);
     
 }
 /*to position my content*/
 .parent1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr
+     1fr 1fr;
     gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .grid-item3{
     
-    color: #ffffff;
+    color: #000000;
     padding: 1rem;
     width: auto;
+    background-color: white;
+    height: fit-content;
+    border:5px solid rgb(116, 7, 7);
 }
 
 .grid-item4{
     
-    color: #ffffff;
+    color: #000000;
     padding: 1rem;
     width: fit-content;
+    background-color: white;
+    height: fit-content;
+    border:5px solid rgb(116, 7, 7);
 }
 
 .grid-item5{
-    
-    color: #ffffff;
+    color: #000000;
     padding: 1rem;
-    
-    
+    padding-right: 10px;
+    background-color: white;
+    height: fit-content;
+    border:5px solid rgb(116, 7, 7);
 }
 
 
 .grid-item6{
-    
-    color: #ffffff;
+    background-color: white;
+    height: fit-content;
+    color: #000000;
     padding: 1rem;
+    border:5px solid rgb(116, 7, 7);
 }
 /*to position my grid items*/
 .parent2{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:1fr 1fr;
     gap: 20px;
 }
 
 form{
-    
-    color: #ffffff;
+    background-color: white;
+    height: fit-content;
+    color: #000000;
     padding: 1rem;
+    border:5px solid rgb(116, 7, 7);
 }
 /*Responsivness*/
 @media (min-width: 0px) {
     body { background-image: url(../Images/last.jpg);
-    font-family: monospace;
+    font-family: 'Times New Roman', Times, serif;
     font-size: small;
     }
     img{
@@ -107,11 +149,60 @@ form{
     }
     header{
         text-align: center;
+        margin-right: 50px;
+    }   
+    
+} 
+/* Small devices (portrait tablets and large phones, 650px and up) */
+@media (min-width: 650px) {
+    body { background-image: url(../Images/body.jpg);
+    font-family: monospace;
+    font-size: large; }
+    img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
     }
+    .picintro{
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction: row;
+    }
+    .intro{
+        margin-top: 150px;
+        padding-left: 50px;
+    }
+ } 
 
-    .container{
+  /* Large devices (laptops/desktops, 900px and up) */
+  @media (min-width: 900px) {
+    body { background-image: url(../Images/resume_background_img.jpg);
+    font-family: monospace;
+    font-size: larger; }
+    img{
+        border-radius: 50%;
+        width: 250px;
+        height: 320px;
+        margin-bottom: 40px;
         
-        animation-name: divcolor;
-        animation-duration: 5s;
+ } 
+    header{
+        margin-left: 200px;
+        text-align: center;
+
     }
- }    
+    .picintro{
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .intro{
+        margin-top: 150px;
+        padding-left: 50px;
+        
+    }
+    
+ }
+ 
+   

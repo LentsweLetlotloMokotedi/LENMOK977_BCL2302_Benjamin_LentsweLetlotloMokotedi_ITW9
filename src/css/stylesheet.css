@@ -67,6 +67,7 @@ button{
     height: fit-content;
     width: fit-content;
     border:5px solid rgb(116, 7, 7);
+    border-radius: 10%;
 }
 
 .grid-item2{
@@ -75,7 +76,7 @@ button{
     padding: 1rem;
     width: fit-content;
     border:5px solid rgb(116, 7, 7);
-    
+    border-radius: 10%;
 }
 /*to position my content*/
 .parent1{
@@ -93,6 +94,7 @@ button{
     background-color: white;
     height: fit-content;
     border:5px solid rgb(116, 7, 7);
+    border-radius: 10%;
 }
 
 .grid-item4{
@@ -103,6 +105,7 @@ button{
     background-color: white;
     height: fit-content;
     border:5px solid rgb(116, 7, 7);
+    border-radius: 10%;
 }
 
 .grid-item5{
@@ -112,6 +115,7 @@ button{
     background-color: white;
     height: fit-content;
     border:5px solid rgb(116, 7, 7);
+    border-radius: 10%;
 }
 
 
@@ -121,6 +125,7 @@ button{
     color: #000000;
     padding: 1rem;
     border:5px solid rgb(116, 7, 7);
+    border-radius: 10%;
 }
 /*to position my grid items*/
 .parent2{
@@ -135,6 +140,7 @@ form{
     color: #000000;
     padding: 1rem;
     border:5px solid rgb(116, 7, 7);
+    border-radius: 10%;
 }
 /*Responsivness*/
 @media (min-width: 0px) {
